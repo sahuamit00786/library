@@ -32,7 +32,63 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-link {
+  color: black;
+}
+
+.card-body-pad {
+  padding-top: 155px;
+  padding-bottom: 150px;
+
+}
+
+.card-title-fs {
+  font-size: 3rem;
+}
+
+.card-title-col {
+  color: #41644A;
+}
+
+.card-text-col {
+  color: #3c3e43;
+  word-spacing: 2px;
+}
+
+.form-control {
+  border: 2px solid rgb(89, 88, 88);
+}
+
+.BookCard {
+  width: 18rem;
+  height: 25rem;
+  margin-left: 3rem;
+  margin-bottom: 40px;
+}
+
+.card-p {
+  overflow: scroll;
+}
+
+.card-img-top {
+  height: 15rem;
+}
+
+.cardFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.amit {
+  display: flex;
+  flex-wrap: wrap;
+
 }
